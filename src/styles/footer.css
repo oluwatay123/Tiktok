@@ -1,0 +1,26 @@
+.fourth-section{
+    box-shadow: 0 0 7px black;
+    display: inline-block;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin:50px 60px 10px 1240px;
+}
+
+.fourth-section img{
+   padding: 2px 6px;
+   border-radius: 25px;
+   font-weight: bold;
+}
+
+@media(max-width:800px){
+    .fourth-section{
+        margin: 0;
+    }
+
+}
+
+
+
+
+
