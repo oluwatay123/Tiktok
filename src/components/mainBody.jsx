@@ -15,7 +15,7 @@ function MainBody() {
   };
 
   return (
-    <div>
+    <div className="container">
       {/* the mainbody */}
       <div className="mainbody">
         <section className="get-coin">

@@ -5,6 +5,7 @@ const header = () => {
   return (
     <div className='header'>
      <div className='image'>
+     
         <img  style={{width:"90px"}} src={Tittok } alt="tiktok" />
      </div>
 
@@ -28,7 +29,9 @@ const header = () => {
 
 
     </div>
-
+    <div className='left-icon-container'>
+    <i style={{display:"none"}}  class="fa fa-chevron-left left-icon" aria-hidden="true"></i>
+    </div>
     </div>
   )
 }
