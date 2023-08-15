@@ -6,4 +6,9 @@ body {
   body {
     padding-top: 100px;
   }
+
+  .Header{
+    position: fixed !important;
+  
+  }
 }

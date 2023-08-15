@@ -18,6 +18,7 @@ function MainBody() {
     <div className="container">
       {/* the mainbody */}
       <div className="mainbody">
+  
         <section className="get-coin">
           <p> Get Coins</p>
           <div className="get-coin-button">
