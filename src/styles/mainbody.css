@@ -95,7 +95,7 @@
 
 @media (max-width: 600px) {
   .coins-grids {
-    grid-template-columns: 1fr 1fr 1fr !important;
+    grid-template-columns: 1fr 1fr 250px !important;
     column-gap: 15px;
   }
   .cards {
