@@ -1,4 +1,4 @@
-demo:tiktok-beta-seven.vercel.app
+demo: tiktok-beta-seven.vercel.app
 
 
 
