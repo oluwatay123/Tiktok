@@ -95,11 +95,16 @@
 
 @media (max-width: 600px) {
   .coins-grids {
-    grid-template-columns: 1fr 1fr 250px !important;
-    column-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    column-gap: 4px;
+    row-gap: 15px;
   }
   .cards {
     width: 100px;
+  }
+
+  .container{
+    padding: 0 1px;
   }
 
   .get-coin p {
@@ -117,9 +122,9 @@
     border-bottom-color: rgb(165, 159, 159);
     padding-bottom: 150px;
   }
-  .container{
-    padding: 0 10px 0 0
-  }
+ 
+ 
+ 
 
   .get-coin-button {
     position: fixed;
