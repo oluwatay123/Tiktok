@@ -126,11 +126,12 @@
  
  .get-coin{
     position: fixed;
+    
  }
 
   .get-coin-button {
     position: fixed;
-    top: 56px;
+    top: 51px;
     left: 0;
     right: 0;
   }
