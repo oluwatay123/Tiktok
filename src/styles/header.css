@@ -1,11 +1,18 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 40px 50px;
+  padding: 10px 50px;
+  /* padding: 40px 50px; */
   align-items: center;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(221, 215, 215);
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: white;
 }
 
 .searchbar {
@@ -107,7 +114,7 @@
   }
 
   .left-icon-container {
-    margin: -10px 0 0  -49px;
+    margin: 10px 0 0  -49px;
      
     width: 50px;
     height: 50px;
@@ -129,7 +136,7 @@
     top: 0;
     right: 0;
     left: 0;
-    height: 10px;
+    height: 40px;
    padding-bottom: 0; 
   }
 }

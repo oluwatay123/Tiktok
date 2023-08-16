@@ -1,3 +1,8 @@
+ .container{
+  padding-top: 100px;
+ }
+
+
 .mainbody {
   padding: 0 50px;
 }
@@ -105,6 +110,7 @@
 
   .container{
     padding: 0 1px;
+    
   }
 
   .get-coin p {
@@ -121,6 +127,7 @@
     border-bottom-style: solid;
     border-bottom-color: rgb(165, 159, 159);
     padding-bottom: 150px;
+   
   }
  
  
@@ -138,15 +145,15 @@
   .get-coin-button button {
     width: 100%;
   }
-  span {
+  .cutom-amount-text{
     padding-left: 200px;
   }
 
-  .final-section{
+  .final-sections{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 0 !important;
     margin-top: -40px;
   }
 
@@ -200,17 +207,16 @@
   }
 }
 
-/* @media(min-width:1000px){ */
-/* .coins-grids{ */
-/* grid-template-columns: 1fr 1fr; */
-/* } */
-/*  */
 
-/* @media(min-width:500px){ */
-/* .coins-grids{ */
-/* grid-template-columns:  1fr 1fr; */
-/* } */
-/* } */
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 1000px) {
   .coins-grids {

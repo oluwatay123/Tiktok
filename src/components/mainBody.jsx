@@ -202,7 +202,7 @@ function MainBody() {
         </section>
       </div>
       {/* the final section  */}
-      <div className="final-section">
+      <div className="final-sections">
         <section className="total-amount-secton">
           <div>
             <p
@@ -210,7 +210,7 @@ function MainBody() {
               style={{ fontWeight: "900px", fontFamily: "arial" }}
             >
               Total{" "}
-              <span style={{ fontWeight: "bold" }}>
+              <span  className="cutom-amount-text"style={{ fontWeight: "bold" }}>
                 {" "}
                 &#163;{CustomAmount !== "" ? CustomAmount : "0"}
               </span>
